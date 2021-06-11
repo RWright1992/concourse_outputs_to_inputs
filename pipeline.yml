@@ -25,7 +25,7 @@ jobs:
 
           run:
             path: /bin/sh
-            arg: ["resource-tutorial/create_some_files.sh"]
+            args: ["resource-tutorial/create_some_files.sh"]
             
       - task: show-some-files
         config:
