@@ -38,4 +38,5 @@ jobs:
             - name: some-files
 
           run:
-            path: resource-tutorial/show_files.sh
+            path: /bin/sh
+            args: ["resource-tutorial/show_files.sh"]
